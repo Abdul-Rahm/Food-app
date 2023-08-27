@@ -24,6 +24,7 @@ const Cart = () => {
         });
     }
   }, [cart]);
+  
 
   const handleCheckOut = () => {
     const data = {
