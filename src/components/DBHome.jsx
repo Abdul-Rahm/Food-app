@@ -16,11 +16,6 @@ const DBHome = () => {
   const chinese = product?.filter((item) => item.product_category === "chinese");
   const bread = product?.filter((item) => item.product_category === "bread");
 
-
-
-
-
-
   useEffect(() => {
     if (!product) {
       getAllProducts().then((data) => {
